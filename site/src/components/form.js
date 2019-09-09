@@ -7,7 +7,7 @@ function Label({ name }) {
   function getlabel(name) {
     switch (name) {
       case 'email':
-        return 'correo electrónico';
+        return 'correo electrónico:';
       default:
         return name;
     }
@@ -111,20 +111,20 @@ export default function ContactForm() {
       {({ handleSubmit, isSubmitting }) => (
         <Form sx={{ width: '100%' }}>
           {submitted ? (
+            <div>
             <Styled.p
               sx={{
-                color: 'primary',
-                py: 1,
+                color: '#639',
                 px: 2,
-                borderRadius: 3,
                 fontSize: [2, 2]
               }}
             >
               Gracias por apuntarte!
             </Styled.p>
+            </div>
           ) : (
             <div>
-              <Field name="email" type="email" component={InputField} />
+              <Field name="email" type="email" placeholder="apuntate@email.com" component={InputField} />
               <button
                 sx={{
                   appearance: 'none',

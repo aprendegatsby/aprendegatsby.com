@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <div
         sx={{
-          p: [16, 32, 60],
+          p: [24, 32, 60],
           width: "90vh",
           maxWidth: ["90vh", 500],
           bg: 'white',
@@ -26,6 +26,9 @@ export default function Home() {
         </div>
         <div sx={{ mt: 4 }}>
           <Form />
+          <Styled.p sx={{ color: '#639', fontSize: [2, 2] }}>
+              S&iacute;guenos por twitter: <a href="https://twitter.com/aprendegatsbyjs" alt="twitter link">@aprendegatsbyjs</a>
+            </Styled.p>
         </div>
       </div>
     </Layout>

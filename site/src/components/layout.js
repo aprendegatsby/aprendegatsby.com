@@ -24,7 +24,7 @@ export default function Layout({ children }) {
       height: '100vh',
       backgroundPosition: "bottom center",
       backgroundRepeat: "no-repeat",
-      backgroundSize: "cover"
+      backgroundSize: "cover",
     }}>
       <Global
         styles={css`
