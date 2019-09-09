@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/horacio/.nvm/versions/node/v12.4.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js workspace site add react react-dom gatsby theme-ui gatsby-plugin-theme-ui @emotion/core @mdx-js/react
+
+PATH: 
+  /Users/horacio/.cargo/bin:/usr/local/php5/bin:/Users/horacio/.nvm/versions/node/v12.4.0/bin:/usr/local/Cellar/mongodb/3.0.3/bin/:/usr/local/heroku/bin:/Users/horacio/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/horacio/Library/Python/3.7:/usr/local/opt/android-sdk/platform-tools/:/usr/local/opt/android-sdk/tools:/usr/local/bin/ant
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/horacio/workspace/aprendegatsby.com/www/site/package.json: Unexpected token } in JSON at position 407
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "site",
+    "main": "index.js",
+    "license": "MIT",
+    "version": "0.1.0",
+    "author": {
+      "email": "hi@horacioh.com",
+      "name": "Horacio Herrera",
+      "url": "https://horacioh.com"
+    },
+    "peerDependencies": {
+      "gatsby": "^2.6.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+      "gatsby": "^2.6.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
