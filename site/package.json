@@ -13,12 +13,12 @@
     "build": "gatsby build"
   },
   "peerDependencies": {
-    "gatsby": "^2.6.0",
+    "gatsby": "^2.18.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "gatsby": "^2.6.0",
+    "gatsby": "^2.18.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -26,7 +26,7 @@
     "@emotion/core": "^10.0.17",
     "@mdx-js/react": "^1.4.4",
     "formik": "^1.5.8",
-    "gatsby": "^2.15.9",
+    "gatsby": "^2.18.7",
     "gatsby-background-image": "^0.8.9",
     "gatsby-plugin-sharp": "^2.2.20",
     "gatsby-plugin-theme-ui": "0.2.43",
