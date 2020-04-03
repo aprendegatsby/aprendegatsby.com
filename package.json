@@ -14,5 +14,8 @@
   "scripts": {
     "develop": "yarn workspace site develop",
     "build": "yarn workspace site build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
