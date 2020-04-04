@@ -1,5 +1,4 @@
 const axios = require("axios");
-const querystring = require("querystring");
 
 exports.handler = async (event) => {
   // Only allow POST
@@ -7,8 +6,7 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: "Method Not Allowed" };
   }
 
-  const params = querystring.parse(event.body);
-  console.log("exports.handler -> params", params);
+  const params = JSON.parse(event.body);
 
   try {
     const resp = await axios.post(

@@ -16,7 +16,6 @@
     "build": "yarn workspace site build"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "querystring": "^0.2.0"
+    "axios": "^0.19.2"
   }
 }
