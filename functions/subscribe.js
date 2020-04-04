@@ -12,14 +12,14 @@ exports.handler = async (event) => {
     const resp = await axios.post(
       `https://api.convertkit.com/v3/forms/1242653/subscribe`,
       {
-        ...event.body,
+        ...params,
         api_key: `PFViSeCgq4EwZvgzgUmGtQ`,
       }
     );
 
     return {
       statusCode: 200,
-      body: `${event.body.first_name} with email ${event.body.email} was subscribed successfully!`,
+      body: `${params.first_name} with email ${params.email} was subscribed successfully!`,
     };
   } catch (err) {
     return {
