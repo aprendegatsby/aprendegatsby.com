@@ -8,6 +8,8 @@ exports.handler = async (event) => {
   }
 
   const params = querystring.parse(event.body);
+  console.log("exports.handler -> params", params);
+
   try {
     const resp = await axios.post(
       `https://api.convertkit.com/v3/forms/1242653/subscribe`,
