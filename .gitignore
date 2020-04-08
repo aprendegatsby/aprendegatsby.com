@@ -54,6 +54,7 @@ public/
 site/.cache/
 results
 site/public/
+.DS_Store
 
 # Gatsby context
 .gatsby-context.js
