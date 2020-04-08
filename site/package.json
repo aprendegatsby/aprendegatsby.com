@@ -1,41 +1,22 @@
 {
   "name": "site",
+  "version": "2.0.0",
+  "description": "Nuevo sitio web de aprendiendogatsby.com",
   "main": "index.js",
-  "license": "MIT",
-  "version": "0.1.0",
-  "author": {
-    "email": "hi@horacioh.com",
-    "name": "Horacio Herrera",
-    "url": "https://horacioh.com"
-  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build"
   },
-  "peerDependencies": {
-    "gatsby": "^2.18.7",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "devDependencies": {
-    "gatsby": "^2.18.7",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
+  "keywords": [
+    "gatsby",
+    "javascript"
+  ],
+  "author": "Garbanv",
+  "license": "MIT",
   "dependencies": {
-    "@emotion/core": "^10.0.17",
-    "@mdx-js/react": "^1.5.1",
-    "formik": "^1.5.8",
-    "gatsby": "^2.18.7",
-    "gatsby-background-image": "^0.8.9",
-    "gatsby-plugin-fathom": "^1.2.0",
-    "gatsby-plugin-sharp": "^2.2.20",
-    "gatsby-plugin-theme-ui": "0.2.43",
-    "gatsby-source-filesystem": "^2.1.21",
-    "gatsby-transformer-sharp": "^2.2.13",
-    "intersection-observer": "^0.7.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "theme-ui": "^0.2.49"
+    "gatsby": "^2.20.14",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
